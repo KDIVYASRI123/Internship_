@@ -1,0 +1,595 @@
+<html>
+  <head>
+    <style>
+      .homepage {
+  background-color: white;
+  padding-top: 47px;
+  display:flex;
+  max-width: 1440px;
+  box-sizing: border-box;
+}
+.homepage .container {
+  margin-bottom: 57px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1029px;
+  box-sizing: border-box;
+}
+.homepage .container-1 {
+  margin: 0 113px 151.5px 96px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1231px;
+  box-sizing: border-box;
+}
+.homepage .container-2 {
+  border-radius: 25px;
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  padding: 22px 89px 0 0;
+  width: 255px;
+  height: 255px;
+  box-sizing: border-box;
+}
+.homepage .container-3 {
+  border-radius: 18px;
+  background: #FFFFFF;
+  position: relative;
+  margin-bottom: 83px;
+  display: flex;
+  padding: 42px 203.3px 90px 0;
+  width: 562px;
+  box-sizing: border-box;
+}
+.homepage .privacy {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.708;
+  color: #FFFFFF;
+}
+.homepage .about {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.708;
+  color: #FFFFFF;
+}
+.homepage .ellipse-9 {
+  border-radius: 35px;
+  background: #FFFFFF;
+  width: 70px;
+  height: 70px;
+}
+.homepage .ellipse-10 {
+  border-radius: 35px;
+  background: #FFFFFF;
+  width: 70px;
+  height: 70px;
+}
+.homepage .ellipse-11 {
+  border-radius: 35px;
+  background: #FFFFFF;
+  margin-right: 68px;
+  width: 70px;
+  height: 70px;
+}
+.homepage .ellipse-12 {
+  border-radius: 35px;
+  background: #FFFFFF;
+  width: 70px;
+  height: 70px;
+}
+.homepage .medicare {
+  margin: 2px 15px 20px 0;
+  display: inline-block;
+  width: 236px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 6px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.homepage .ellipse-1 {
+  position: absolute;
+  left: 74px;
+  top: -63px;
+  width: 209px;
+  height: 211px;
+}
+.homepage .ellipse-2 {
+  position: absolute;
+  left: 117px;
+  top: -46px;
+  width: 203px;
+  height: 198px;
+}
+.homepage .rectangle-11 {
+  border-radius: 10px;
+  background: #3D8BFF;
+  position: absolute;
+  top: 49px;
+  right: 82px;
+  width: 121px;
+  height: 49px;
+}
+.homepage .rectangle-9 {
+  border-radius: 10px;
+  position: absolute;
+  top: 49px;
+  right: 240px;
+  width: 120px;
+  height: 49px;
+}
+.homepage .login {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 2.6;
+  color: #FFFFFF;
+}
+.homepage .signup {
+  margin: 13px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #848484;
+}
+.homepage .ellipse-3 {
+  position: absolute;
+  top: 830px;
+  right: 82px;
+  width: 248px;
+  height: 241px;
+}
+.homepage .ellipse-4 {
+  position: absolute;
+  top: 416px;
+  left:900px;
+  width: 417px;
+  height: 401px;
+}
+.homepage .image-1 {
+  background: url('https://cdn.glitch.global/c8a643eb-6431-453b-b7dd-8242a53566c9/image_1.png?v=1720951871772') 50% / cover no-repeat;
+  position: absolute;
+  top: 150px;
+  right:  20px;
+  width: 431px;
+  height: 532px;
+}
+.homepage .agreat-place-to-receive-care {
+  margin: 0 96px 14.5px 96px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 68px;
+  letter-spacing: 2px;
+  line-height: 1.044;
+  color: #000000;
+}
+.homepage .medical-recover-is-most-focused-in-helping-you-discover-your-most-beautiful-smile {
+  margin: 0 96px 23px 96px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: #A0A0A0;
+}
+.homepage .rectangle-12 {
+  border-radius: 10px;
+  background: #3D8BFF;
+  position: absolute;
+  left: 96px;
+  top: 478px;
+  width: 135px;
+  height: 43px;
+}
+.homepage .scroll-down-to-see-our-services {
+  position: absolute;
+  left: 96px;
+  top: 453px;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: #A0A0A0;
+}
+.homepage .services {
+  margin: 0 127px 144px 127px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 2.6;
+  color: #FFFFFF;
+}
+.homepage .explore-by-category {
+  position: relative;
+  margin: 0 25px 57px 25px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.139;
+  color: #000000;
+}
+.homepage .ellipse-5 {
+  width: 82px;
+  height: 86px;
+}
+.homepage .ellipse-6 {
+  width: 82px;
+  height: 86px;
+}
+.homepage .ellipse-7 {
+  width: 82px;
+  height: 86px;
+}
+.homepage .ellipse-8 {
+  width: 82px;
+  height: 86px;
+}
+.homepage .rectangle-18 {
+  border-radius: 50px 0 50px 0;
+  background: url('');  
+  margin-right: 90px;
+  width: 600px;
+  height: 718px;
+}
+.homepage .our-mision {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.139;
+  color: #000000;
+}
+.homepage .rectangle-20 {
+  border-radius: 18px;
+  position: absolute;
+  top: 854px;
+  right: 117px;
+  width: 562px;
+  height: 173px;
+}
+.homepage .who-we-are {
+  margin: 0 202.7px 147px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.139;
+  color: #000000;
+  position:relative;
+  right:80px;
+  top:40px;
+}
+.homepage .our-vision {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.139;
+  color: #000000;
+}
+.homepage .medicare-1 {
+  margin: 0 4.3px 43px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 26px;
+  line-height: 1.139;
+  color: #FFFFFF;
+}
+.homepage .company {
+  margin-right: 20.5px;
+  width: 102px;
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.708;
+  color: #FFFFFF;
+}
+.homepage .resources {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.708;
+  color: #FFFFFF;
+}
+.homepage .careers {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.708;
+  color: #FFFFFF;
+}
+.homepage .help {
+  overflow-wrap: break-word;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.708;
+  color: #FFFFFF;
+}
+.homepage .container-4 {
+  border-radius: 25px;
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  padding: 22px 63px 0 0;
+  width: 255px;
+  height: 255px;
+  box-sizing: border-box;
+}
+.homepage .container-5 {
+  background: #000237;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 147px 0 145px 0;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.homepage .container-6 {
+  border-radius: 18px;
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  padding: 38px 221.3px 94px 0;
+  width: 562px;
+  box-sizing: border-box;
+}
+.homepage .container-7 {
+  display: flex;
+  flex-direction: row;
+  width: 208px;
+  box-sizing: border-box;
+}
+.homepage .container-8 {
+  border-radius: 25px;
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  padding: 22px 103px 0 0;
+  width: 255px;
+  height: 255px;
+  box-sizing: border-box;
+}
+.homepage .container-9 {
+  margin-right: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 499px;
+  box-sizing: border-box;
+}
+.homepage .container-10 {
+  margin: 27px 0 74px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 562px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.homepage .container-11 {
+  background: #E8E8E8;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 79px 65px 71px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.homepage .container-12 {
+  border-radius: 25px;
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  padding: 22px 53px 0 0;
+  width: 255px;
+  height: 255px;
+  box-sizing: border-box;
+}
+.homepage .container-13 {
+  position: relative;
+  margin: 0 38px 0 28px;
+  display: flex;
+  flex-direction: row;
+  width: 1224px;
+  box-sizing: border-box;
+}
+.homepage .container-14 {
+  position: relative;
+  margin-bottom: 131px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 90px;
+  width: 1290px;
+  box-sizing: border-box;
+}
+.homepage .container-15 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+      .rec{
+        width:500px;
+        height:700px;
+      }     
+      .who-we-are{
+        margin-right:50px;
+      }
+      .text-on-image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: bold;
+     }
+      .rectangle-9,
+      .rectangle-12,
+       .rectangle-11 {
+          position: relative;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="homepage">
+  <img class="ellipse-2" src="https://cdn.glitch.global/c8a643eb-6431-453b-b7dd-8242a53566c9/ellipse_2_x2.svg?v=1720952000264" />
+  <img class="ellipse-1" src="https://cdn.glitch.global/c8a643eb-6431-453b-b7dd-8242a53566c9/ellipse_1_x2.svg?v=1720951986389" />
+  <img class="ellipse-4" src="https://cdn.glitch.global/c8a643eb-6431-453b-b7dd-8242a53566c9/ellipse_4_x2.svg?v=1720952786909" />
+  <img class="rectangle-9" src="https://cdn.glitch.global/c8a643eb-6431-453b-b7dd-8242a53566c9/rectangle_9_x2.svg?v=1720952059293" />
+  <img class="ellipse-3" src="https://cdn.glitch.global/c8a643eb-6431-453b-b7dd-8242a53566c9/ellipse_3_x2.svg?v=1720952022793" />
+      <div class="rectangle-9">
+  <div class="text-on-image">Login</div>
+</div>
+
+<div class="rectangle-12">
+  <div class="text-on-image">Sign up</div>
+</div>
+
+<div class="rectangle-11">
+  <div class="text-on-image">Explore</div>
+</div>
+  <div class="rectangle-11">
+  </div>
+  <div class="rectangle-12">
+  </div>
+  <div class="image-1">
+  </div>
+  <div class="container-15">
+    <div class="container-1">
+      <div class="medicare">
+        Medicare
+      </div>
+      <div class="signup">
+      </div>
+      <span class="signup" style="margin-right: -310px;"><a href="iicsignup.html">
+        Signup</a>
+      </span>
+      <span class="login" style="margin-right: -60px;"><a href="signin.html">
+        Login</a>
+      </span>
+    </div>
+    <div class="agreat-place-to-receive-care">
+      A Great Place to Receive Care
+    </div>
+    <div class="medical-recover-is-most-focused-in-helping-you-discover-your-most-beautiful-smile">
+      Medical Recover is most focused in helping you discover your most beautiful smile
+    </div>
+    <div class="services">
+      Services
+    </div>
+    <div class="container-11">
+      <img class="rectangle-20" src="https://cdn.glitch.global/c8a643eb-6431-453b-b7dd-8242a53566c9/rectangle_20_x2.svg?v=1720952065344" />
+      <div class="explore-by-category">
+        Explore By Category
+      </div>
+      <div class="container-14">
+        <div class="container-4" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEBoUKODm6OS_zccWNj_cD8gO8xK5H-R40qw&s');background-repeat:no-repeat;
+            background-size: cover;">
+          <img class="ellipse-5" src="https://cdn.glitch.global/c8a643eb-6431-453b-b7dd-8242a53566c9/ellipse_5_x2.svg?v=1720952029778" /><a href="iic1.html" style="text-decoration: none;font-size:40px;">Blood Tests Results</a>
+        </div>
+        <div class="container-12" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEBoUKODm6OS_zccWNj_cD8gO8xK5H-R40qw&s');background-repeat:no-repeat;
+            background-size: cover;">
+          <img class="ellipse-8" src="https://cdn.glitch.global/c8a643eb-6431-453b-b7dd-8242a53566c9/ellipse_8_x2.svg?v=1720952047669" /><a href="iic2.html" style="text-decoration: none;font-size:40px;">Sugar Tests Results</a>
+        </div>
+        <div class="container-2" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEBoUKODm6OS_zccWNj_cD8gO8xK5H-R40qw&s');background-repeat:no-repeat;
+            background-size: cover;">
+          <img class="ellipse-6" src="https://cdn.glitch.global/c8a643eb-6431-453b-b7dd-8242a53566c9/ellipse_6_x2.svg?v=1720952035636" /><a href="iic3.html" style="text-decoration: none;font-size:40px;">Cholestrol Tests Results</a>
+        </div>
+        <div class="container-8" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEBoUKODm6OS_zccWNj_cD8gO8xK5H-R40qw&s');background-repeat:no-repeat;
+            background-size: cover;">
+          <img class="ellipse-7" src="https://cdn.glitch.global/c8a643eb-6431-453b-b7dd-8242a53566c9/ellipse_7_x2.svg?v=1720952040736" /><a href="iic4.html" style="text-decoration: none;font-size:40px;">CBC Tests Results</a>
+        </div>
+      </div>
+      <div class="container-13">
+        <div class="rectangle-18">
+          <img class="rec" src="https://cdn.glitch.global/c8a643eb-6431-453b-b7dd-8242a53566c9/rectangle_18.png?v=1720951921723">
+        </div>
+        <div class="container-10">
+          <div class="container-3">
+            <span class="our-mision" style="margin-left: 90px;">
+              Our Mission
+            </span>
+          </div>
+          <div class="who-we-are" style="margin-left: 130px;margin-top:30px;">
+            Who we are
+          </div>
+          <div class="container-6">
+            <span class="our-vision" style="margin-left: 90px;">
+              Our Vision
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-5">
+      <div class="medicare-1">
+        MEDICARE
+      </div>
+      <div class="container">
+        <span class="company">
+          Company
+        </span>
+        <span class="resources">
+          Resources
+        </span>
+        <span class="careers">
+          Careers
+        </span>
+        <span class="help">
+          Help
+        </span>
+        <span class="about">
+          About
+        </span>
+        <span class="privacy">
+          Privacy
+        </span>
+      </div>
+  </div>
+  <span class="scroll-down-to-see-our-services" style="margin-top:-70px;">
+    Scroll down to see our services<br><p style="color:black;margin-left:20px;margin-top:30px;">Explore More</p>
+  </span>
+  
+</div>
+  </body>
+</html>
